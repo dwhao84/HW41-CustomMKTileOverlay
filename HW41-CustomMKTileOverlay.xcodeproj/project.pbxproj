@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D326E3FC2B2EF13B0079AADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E3FB2B2EF13B0079AADA /* AppDelegate.swift */; };
+		D326E3FE2B2EF13B0079AADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E3FD2B2EF13B0079AADA /* SceneDelegate.swift */; };
+		D326E4002B2EF13B0079AADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E3FF2B2EF13B0079AADA /* ViewController.swift */; };
+		D326E4032B2EF13B0079AADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D326E4012B2EF13B0079AADA /* Main.storyboard */; };
+		D326E4052B2EF1410079AADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D326E4042B2EF1410079AADA /* Assets.xcassets */; };
+		D326E4082B2EF1410079AADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D326E4062B2EF1410079AADA /* LaunchScreen.storyboard */; };
+		D326E4132B2EF1410079AADA /* HW41_CustomMKTileOverlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E4122B2EF1410079AADA /* HW41_CustomMKTileOverlayTests.swift */; };
+		D326E41D2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E41C2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITests.swift */; };
+		D326E41F2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E41E2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D326E40F2B2EF1410079AADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D326E3F02B2EF13B0079AADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D326E3F72B2EF13B0079AADA;
+			remoteInfo = "HW41-CustomMKTileOverlay";
+		};
+		D326E4192B2EF1410079AADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D326E3F02B2EF13B0079AADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D326E3F72B2EF13B0079AADA;
+			remoteInfo = "HW41-CustomMKTileOverlay";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D326E3F82B2EF13B0079AADA /* HW41-CustomMKTileOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW41-CustomMKTileOverlay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D326E3FB2B2EF13B0079AADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D326E3FD2B2EF13B0079AADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D326E3FF2B2EF13B0079AADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D326E4022B2EF13B0079AADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D326E4042B2EF1410079AADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D326E4072B2EF1410079AADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D326E4092B2EF1410079AADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D326E40E2B2EF1410079AADA /* HW41-CustomMKTileOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW41-CustomMKTileOverlayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D326E4122B2EF1410079AADA /* HW41_CustomMKTileOverlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW41_CustomMKTileOverlayTests.swift; sourceTree = "<group>"; };
+		D326E4182B2EF1410079AADA /* HW41-CustomMKTileOverlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW41-CustomMKTileOverlayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D326E41C2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW41_CustomMKTileOverlayUITests.swift; sourceTree = "<group>"; };
+		D326E41E2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW41_CustomMKTileOverlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D326E3F52B2EF13B0079AADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326E40B2B2EF1410079AADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326E4152B2EF1410079AADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D326E3EF2B2EF13B0079AADA = {
+			isa = PBXGroup;
+			children = (
+				D326E3FA2B2EF13B0079AADA /* HW41-CustomMKTileOverlay */,
+				D326E4112B2EF1410079AADA /* HW41-CustomMKTileOverlayTests */,
+				D326E41B2B2EF1410079AADA /* HW41-CustomMKTileOverlayUITests */,
+				D326E3F92B2EF13B0079AADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D326E3F92B2EF13B0079AADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D326E3F82B2EF13B0079AADA /* HW41-CustomMKTileOverlay.app */,
+				D326E40E2B2EF1410079AADA /* HW41-CustomMKTileOverlayTests.xctest */,
+				D326E4182B2EF1410079AADA /* HW41-CustomMKTileOverlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D326E3FA2B2EF13B0079AADA /* HW41-CustomMKTileOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				D326E3FB2B2EF13B0079AADA /* AppDelegate.swift */,
+				D326E3FD2B2EF13B0079AADA /* SceneDelegate.swift */,
+				D326E3FF2B2EF13B0079AADA /* ViewController.swift */,
+				D326E4012B2EF13B0079AADA /* Main.storyboard */,
+				D326E4042B2EF1410079AADA /* Assets.xcassets */,
+				D326E4062B2EF1410079AADA /* LaunchScreen.storyboard */,
+				D326E4092B2EF1410079AADA /* Info.plist */,
+			);
+			path = "HW41-CustomMKTileOverlay";
+			sourceTree = "<group>";
+		};
+		D326E4112B2EF1410079AADA /* HW41-CustomMKTileOverlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				D326E4122B2EF1410079AADA /* HW41_CustomMKTileOverlayTests.swift */,
+			);
+			path = "HW41-CustomMKTileOverlayTests";
+			sourceTree = "<group>";
+		};
+		D326E41B2B2EF1410079AADA /* HW41-CustomMKTileOverlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D326E41C2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITests.swift */,
+				D326E41E2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITestsLaunchTests.swift */,
+			);
+			path = "HW41-CustomMKTileOverlayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D326E3F72B2EF13B0079AADA /* HW41-CustomMKTileOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D326E4222B2EF1410079AADA /* Build configuration list for PBXNativeTarget "HW41-CustomMKTileOverlay" */;
+			buildPhases = (
+				D326E3F42B2EF13B0079AADA /* Sources */,
+				D326E3F52B2EF13B0079AADA /* Frameworks */,
+				D326E3F62B2EF13B0079AADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW41-CustomMKTileOverlay";
+			productName = "HW41-CustomMKTileOverlay";
+			productReference = D326E3F82B2EF13B0079AADA /* HW41-CustomMKTileOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D326E40D2B2EF1410079AADA /* HW41-CustomMKTileOverlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D326E4252B2EF1410079AADA /* Build configuration list for PBXNativeTarget "HW41-CustomMKTileOverlayTests" */;
+			buildPhases = (
+				D326E40A2B2EF1410079AADA /* Sources */,
+				D326E40B2B2EF1410079AADA /* Frameworks */,
+				D326E40C2B2EF1410079AADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D326E4102B2EF1410079AADA /* PBXTargetDependency */,
+			);
+			name = "HW41-CustomMKTileOverlayTests";
+			productName = "HW41-CustomMKTileOverlayTests";
+			productReference = D326E40E2B2EF1410079AADA /* HW41-CustomMKTileOverlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D326E4172B2EF1410079AADA /* HW41-CustomMKTileOverlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D326E4282B2EF1410079AADA /* Build configuration list for PBXNativeTarget "HW41-CustomMKTileOverlayUITests" */;
+			buildPhases = (
+				D326E4142B2EF1410079AADA /* Sources */,
+				D326E4152B2EF1410079AADA /* Frameworks */,
+				D326E4162B2EF1410079AADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D326E41A2B2EF1410079AADA /* PBXTargetDependency */,
+			);
+			name = "HW41-CustomMKTileOverlayUITests";
+			productName = "HW41-CustomMKTileOverlayUITests";
+			productReference = D326E4182B2EF1410079AADA /* HW41-CustomMKTileOverlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D326E3F02B2EF13B0079AADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D326E3F72B2EF13B0079AADA = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D326E40D2B2EF1410079AADA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D326E3F72B2EF13B0079AADA;
+					};
+					D326E4172B2EF1410079AADA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D326E3F72B2EF13B0079AADA;
+					};
+				};
+			};
+			buildConfigurationList = D326E3F32B2EF13B0079AADA /* Build configuration list for PBXProject "HW41-CustomMKTileOverlay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D326E3EF2B2EF13B0079AADA;
+			productRefGroup = D326E3F92B2EF13B0079AADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D326E3F72B2EF13B0079AADA /* HW41-CustomMKTileOverlay */,
+				D326E40D2B2EF1410079AADA /* HW41-CustomMKTileOverlayTests */,
+				D326E4172B2EF1410079AADA /* HW41-CustomMKTileOverlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D326E3F62B2EF13B0079AADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326E4082B2EF1410079AADA /* LaunchScreen.storyboard in Resources */,
+				D326E4052B2EF1410079AADA /* Assets.xcassets in Resources */,
+				D326E4032B2EF13B0079AADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326E40C2B2EF1410079AADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326E4162B2EF1410079AADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D326E3F42B2EF13B0079AADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326E4002B2EF13B0079AADA /* ViewController.swift in Sources */,
+				D326E3FC2B2EF13B0079AADA /* AppDelegate.swift in Sources */,
+				D326E3FE2B2EF13B0079AADA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326E40A2B2EF1410079AADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326E4132B2EF1410079AADA /* HW41_CustomMKTileOverlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326E4142B2EF1410079AADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326E41F2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITestsLaunchTests.swift in Sources */,
+				D326E41D2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D326E4102B2EF1410079AADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D326E3F72B2EF13B0079AADA /* HW41-CustomMKTileOverlay */;
+			targetProxy = D326E40F2B2EF1410079AADA /* PBXContainerItemProxy */;
+		};
+		D326E41A2B2EF1410079AADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D326E3F72B2EF13B0079AADA /* HW41-CustomMKTileOverlay */;
+			targetProxy = D326E4192B2EF1410079AADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D326E4012B2EF13B0079AADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D326E4022B2EF13B0079AADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D326E4062B2EF1410079AADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D326E4072B2EF1410079AADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D326E4202B2EF1410079AADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D326E4212B2EF1410079AADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D326E4232B2EF1410079AADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NJ9W73ML8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HW41-CustomMKTileOverlay/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dawei84.HW41-CustomMKTileOverlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D326E4242B2EF1410079AADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NJ9W73ML8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HW41-CustomMKTileOverlay/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dawei84.HW41-CustomMKTileOverlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D326E4262B2EF1410079AADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NJ9W73ML8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dawei84.HW41-CustomMKTileOverlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW41-CustomMKTileOverlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HW41-CustomMKTileOverlay";
+			};
+			name = Debug;
+		};
+		D326E4272B2EF1410079AADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NJ9W73ML8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dawei84.HW41-CustomMKTileOverlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW41-CustomMKTileOverlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HW41-CustomMKTileOverlay";
+			};
+			name = Release;
+		};
+		D326E4292B2EF1410079AADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NJ9W73ML8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dawei84.HW41-CustomMKTileOverlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW41-CustomMKTileOverlay";
+			};
+			name = Debug;
+		};
+		D326E42A2B2EF1410079AADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NJ9W73ML8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dawei84.HW41-CustomMKTileOverlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW41-CustomMKTileOverlay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D326E3F32B2EF13B0079AADA /* Build configuration list for PBXProject "HW41-CustomMKTileOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D326E4202B2EF1410079AADA /* Debug */,
+				D326E4212B2EF1410079AADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D326E4222B2EF1410079AADA /* Build configuration list for PBXNativeTarget "HW41-CustomMKTileOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D326E4232B2EF1410079AADA /* Debug */,
+				D326E4242B2EF1410079AADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D326E4252B2EF1410079AADA /* Build configuration list for PBXNativeTarget "HW41-CustomMKTileOverlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D326E4262B2EF1410079AADA /* Debug */,
+				D326E4272B2EF1410079AADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D326E4282B2EF1410079AADA /* Build configuration list for PBXNativeTarget "HW41-CustomMKTileOverlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D326E4292B2EF1410079AADA /* Debug */,
+				D326E42A2B2EF1410079AADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D326E3F02B2EF13B0079AADA /* Project object */;
+}
