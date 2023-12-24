@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		D326E3FC2B2EF13B0079AADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E3FB2B2EF13B0079AADA /* AppDelegate.swift */; };
 		D326E3FE2B2EF13B0079AADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E3FD2B2EF13B0079AADA /* SceneDelegate.swift */; };
-		D326E4002B2EF13B0079AADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E3FF2B2EF13B0079AADA /* ViewController.swift */; };
 		D326E4032B2EF13B0079AADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D326E4012B2EF13B0079AADA /* Main.storyboard */; };
 		D326E4052B2EF1410079AADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D326E4042B2EF1410079AADA /* Assets.xcassets */; };
 		D326E4082B2EF1410079AADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D326E4062B2EF1410079AADA /* LaunchScreen.storyboard */; };
 		D326E4132B2EF1410079AADA /* HW41_CustomMKTileOverlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E4122B2EF1410079AADA /* HW41_CustomMKTileOverlayTests.swift */; };
 		D326E41D2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E41C2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITests.swift */; };
 		D326E41F2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326E41E2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITestsLaunchTests.swift */; };
+		D3407D182B3889F700D9DFA2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3407D172B3889F700D9DFA2 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		D326E3F82B2EF13B0079AADA /* HW41-CustomMKTileOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW41-CustomMKTileOverlay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D326E3FB2B2EF13B0079AADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D326E3FD2B2EF13B0079AADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D326E3FF2B2EF13B0079AADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D326E4022B2EF13B0079AADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D326E4042B2EF1410079AADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D326E4072B2EF1410079AADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		D326E41C2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW41_CustomMKTileOverlayUITests.swift; sourceTree = "<group>"; };
 		D326E41E2B2EF1410079AADA /* HW41_CustomMKTileOverlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW41_CustomMKTileOverlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D326E42B2B2EF2100079AADA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D3407D172B3889F700D9DFA2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,8 @@
 			children = (
 				D326E3FB2B2EF13B0079AADA /* AppDelegate.swift */,
 				D326E3FD2B2EF13B0079AADA /* SceneDelegate.swift */,
-				D326E3FF2B2EF13B0079AADA /* ViewController.swift */,
 				D326E4012B2EF13B0079AADA /* Main.storyboard */,
+				D3407D172B3889F700D9DFA2 /* MapViewController.swift */,
 				D326E4042B2EF1410079AADA /* Assets.xcassets */,
 				D326E4062B2EF1410079AADA /* LaunchScreen.storyboard */,
 				D326E42B2B2EF2100079AADA /* README.md */,
@@ -260,8 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D326E4002B2EF13B0079AADA /* ViewController.swift in Sources */,
 				D326E3FC2B2EF13B0079AADA /* AppDelegate.swift in Sources */,
+				D3407D182B3889F700D9DFA2 /* MapViewController.swift in Sources */,
 				D326E3FE2B2EF13B0079AADA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
