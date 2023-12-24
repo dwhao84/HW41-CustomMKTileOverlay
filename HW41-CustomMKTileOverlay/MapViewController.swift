@@ -22,12 +22,22 @@ class MapViewController: UIViewController {
          */
 
         let template: String       =  "http://wmts.nlsc.gov.tw/wmts/EMAP5_OPENDATA/default/GoogleMapsCompatible/{z}/{y}/{x}"
+        
         // Define the template as overlay so that template could be add in to the MKTileOverlay
         let overlay: MKTileOverlay = MKTileOverlay(urlTemplate: template)
-        overlay.canReplaceMapContent = true                 // Let new layer could be cover the previous layer.
-        mapView.addOverlay(overlay, level: .aboveRoads)    // Add the Overlay into the MKTileOverlay
-        mapView.delegate = self                   // Add the mapView add the delegate.
+
+        // Let new layer could be cover the previous layer.
+        overlay.canReplaceMapContent = true
+        // Add the Overlay into the MKTileOverlay
+        mapView.addOverlay(overlay, level: .aboveRoads)
+
+        // Add the mapView add the delegate.
+        mapView.delegate = self
+
+        // Set the tileSize
         overlay.tileSize = CGSize(width: 300, height: 300)
+
+        // Make sure the user could see the maximumZ size
         overlay.maximumZ = 9
         overlay.minimumZ = 1
     }
